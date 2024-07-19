@@ -24,7 +24,11 @@ VRCの機能の「**コンタクト**」とUnityの標準機能の「**コンス
 # 🛠導入方法
 - Assets内の「ひっつくん」のフォルダーの中に「**DummyAvatar**」プレハブがあるので、Hierarchyのなかにドラック＆ドロップする。
 
+<!-- 
 ![スクリーンショット (243)](https://github.com/user-attachments/assets/950dd313-b8e5-4302-8a62-607ea2ac13aa)
+-->
+
+![スクリーンショット (246)](https://github.com/user-attachments/assets/74290cb3-210c-4d39-b0e0-53abc52a8acc)
 
 - Hierarchyの「**ひっつくん**」を実装したいアバターにドラック＆ドロップする。同じ親子関係になっていればOK！
 - Assets内の「**ひっつくん**」のフォルダーの中の「**FX**」を実装したいアバターのFXと統合する。
@@ -33,6 +37,10 @@ VRCの機能の「**コンタクト**」とUnityの標準機能の「**コンス
 - 「**オブジェクト**」の配下の「**Cube**」を自分が使用したいモデルに変更する。
 - 「元のポジション」を手や頭など追従させたいところに移動させる。トラッキングしているオブジェクトがLOST状態になるとそのポジションへ戻る。
 - 最後に「**DummyAavatar**」が残っているで、消去すること
+
+※「TestObject」は追従される側のオブジェクトのサンプル。「Collision Tag」さえ一致していれば追従されます。
+
+※「Tracker」とその配下（X+1からY+1）のコンポーネントの中に「VRC Contact Receiver」があります。その設定の「Collision Tag」を追従させたいオブジェクト（VRC Contact Sender）のTagと一致さてください。
 
 > [!CAUTION]
 > Unity上で動作確認する場合は、「**Gesture Manager**」などのツールを再生しないと、正常に動作しない場合があります。
