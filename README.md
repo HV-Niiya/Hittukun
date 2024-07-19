@@ -49,8 +49,4 @@ VRCの機能の「**コンタクト**」とUnityの標準機能の「**コンス
 
 - https://qiita.com/u_d_iix/items/806d68e1496ba6fa3acd
 - https://note.com/ninado/n/nebdf295a1f98
-
 -----
-
-※上位互換
-- https://github.com/VRLabs/Contact-Tracker
