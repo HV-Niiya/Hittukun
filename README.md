@@ -12,6 +12,8 @@ VRCの機能の「**コンタクト**」とUnityの標準機能の「**コンス
 
 もちろん、Tagなどを設定することによって特定のオブジェクトに追従することもできます。
 
+![スクリーンショット (244)](https://github.com/user-attachments/assets/7c999a18-9338-4218-a72e-34357733d4d9)
+
 使いやすいようにunitypackage化しました。
 ダウンロードは [**こちら**](https://github.com/HV-Niiya/Hittukun/releases/latest)からどうぞ！
 
@@ -23,7 +25,7 @@ VRCの機能の「**コンタクト**」とUnityの標準機能の「**コンス
 # 🛠導入方法
 - Assets内の「ひっつくん」のフォルダーの中に「**DummyAvatar**」プレハブがあるので、Hierarchyのなかにドラック＆ドロップする。
 
-![sample](https://github.com/user-attachments/assets/d78faef2-2c30-49b0-8b9f-e7ac1ce7d1d4)
+![スクリーンショット (243)](https://github.com/user-attachments/assets/950dd313-b8e5-4302-8a62-607ea2ac13aa)
 
 - Hierarchyの「**ひっつくん**」を実装したいアバターにドラック＆ドロップする。同じ親子関係になっていればOK！
 - Assets内の「**ひっつくん**」のフォルダーの中の「**FX**」を実装したいアバターのFXと統合する。
